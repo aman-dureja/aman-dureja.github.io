@@ -1,0 +1,98 @@
+
+
+body {
+	background-color: transparent;
+}
+
+.aboutme { 
+  background: url(aboutbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.myportfolio {
+  background: url(contactbackground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.contact {
+  background: url(portfoliobackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.footer {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: white;
+}
+
+.intro-pic {
+	max-height: 10%;
+	max-width: 10%;
+}
+
+.description-of-me {
+	font-size: 16px;
+	font-family: Arial;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+}
+
+.projects {
+	padding-top: 15px;
+}
+
+.project-image {
+	height: 250px;
+	width: 250px;
+}
+
+.contact {
+	padding-top: 15px;
+}
+
+.header {
+    height: 1300px;
+	width: 100%;
+    min-height: 100%;
+	text-align: center;
+    color: #FFF;
+    background: url(https://i.imgur.com/SPFIQ41.jpg) no-repeat;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.intro-text .name {
+	padding-top: 250px;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    opacity: 0.95;
+	color: white;
+}
+
+.intro-text .description {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.95;
+	color: white;
+}
