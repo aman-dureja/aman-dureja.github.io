@@ -38,11 +38,6 @@ body {
 	color: white;
 }
 
-.intro-pic {
-	max-height: 10%;
-	max-width: 10%;
-}
-
 .description-of-me {
 	font-size: 18px;
 	padding-left: 50px;
@@ -65,8 +60,8 @@ body {
 }
 
 .header {
-    height: 100%;
-	  width: 100%;
+    height: 100vh;
+    width: 100%;
     min-height: 100%;
   	text-align: center;
     color: #FFF;
@@ -78,15 +73,22 @@ body {
     background-size: cover; 
 }
 
+.vcenter {
+  position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 .intro-text .name {
-	padding-top: 250px;
     display: block;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 800;
-    opacity: 0.95;
-	color: white;
+    opacity: 1;
+  color: #FFFFFF;
 }
 
 .intro-text .description {
@@ -94,6 +96,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    opacity: 0.95;
-	color: white;
+    opacity: 1;
+  color: #FFFFFF;
 }
