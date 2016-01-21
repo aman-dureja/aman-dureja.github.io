@@ -2,6 +2,7 @@
 
 body {
 	background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .aboutme { 
@@ -43,8 +44,7 @@ body {
 }
 
 .description-of-me {
-	font-size: 16px;
-	font-family: Arial;
+	font-size: 18px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 15px;
@@ -52,6 +52,7 @@ body {
 
 .projects {
 	padding-top: 15px;
+  font-size: 18px;
 }
 
 .project-image {
@@ -64,10 +65,10 @@ body {
 }
 
 .header {
-    height: 1300px;
-	width: 100%;
+    height: 100%;
+	  width: 100%;
     min-height: 100%;
-	text-align: center;
+  	text-align: center;
     color: #FFF;
     background: url(https://i.imgur.com/SPFIQ41.jpg) no-repeat;
     background-attachment: fixed;       
