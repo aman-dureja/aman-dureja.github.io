@@ -3,12 +3,19 @@
 body {
 	background-color: transparent;
   font-family: 'Open Sans', sans-serif;
-  background: url(aboutbackground.jpg) no-repeat center center fixed; 
+  background: url(http://p1.pichost.me/i/11/1340208.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
+}
+
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
 }
 /*
 .aboutme { 
