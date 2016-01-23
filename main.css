@@ -3,8 +3,14 @@
 body {
 	background-color: transparent;
   font-family: 'Open Sans', sans-serif;
+  background: url(aboutbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
 }
-
+/*
 .aboutme { 
   background: url(aboutbackground.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -31,7 +37,7 @@ body {
   background-size: cover;
   color: white;
 }
-
+*/
 .footer {
 	padding-top: 6px;
 	padding-bottom: 6px;
@@ -40,8 +46,8 @@ body {
 
 .description-of-me {
 	font-size: 18px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-top: 15px;
 }
 
