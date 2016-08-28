@@ -1,5 +1,5 @@
 body {
-	margin: 0px;
+  margin: 0px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .intro .myHeader {
-	z-index: 2;
+  z-index: 2;
   font-size: 80px;
 }
 
@@ -158,14 +158,14 @@ body {
 }
 
 .picture-container {
-	text-align: center;
+  text-align: center;
 }
 
 .about-me .picture-container .my-pic {
-	height: 480px;
-	width: 270px;
-	border-style: solid;
-	color: black;
+  height: 480px;
+  width: 270px;
+  border-style: solid;
+  color: black;
 }
 
 .qualifications {
