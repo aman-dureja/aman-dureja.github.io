@@ -162,7 +162,8 @@ body {
   text-align: center;
 }
 
-.about-me .picture-container .my-pic {
+.my-pic {
+  flex-shrink: 0;
   height: 480px;
   width: 270px;
   border-style: solid;
@@ -281,7 +282,7 @@ tr.qual-row > td {
   }
 }
 
-@media all and (max-height: 414px) {
+@media all and (max-height: 1024px) {
   .intro .scrollArrow {
     visibility: hidden;
   }
