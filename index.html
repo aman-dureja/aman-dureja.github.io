@@ -1,145 +1,202 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-
 <head>
-    <title>Aman Dureja</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	<link href="main.css" rel="stylesheet">
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-	<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  		ga('create', 'UA-72868002-1', 'auto');
-  		ga('send', 'pageview');
-	</script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width" />
 </head>
 
-<body style="padding-top: 50px">
+	<body>
 
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			
-			<a href="#" class="navbar-brand">Aman Dureja</a>
-
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-
-			<div class="collapse navbar-collapse navHeaderCollapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="Resume.pdf" target="_blank">Resume</a></li>
-				</ul>
+		<!-- Navbar -->
+		<div class='navbar'>
+			<div class='name'>
+				<h3>Aman Dureja</h3>
 			</div>
-
+			<nav class='main-links'>
+				<a href='#about'><h4>About</h4></a>
+				<a href='#quals'><h4>Qualifications</h4></a>
+				<a href='#experience'><h4>Experience</h4></a>
+				<a href='#portfolio'><h4>Portfolio</h4></a>
+				<a href='#contact'><h4>Contact</h4></a>
+				<a href='#'><h4>Resume</h4></a>
+			</nav>
+			<div class='collapsed-menu-button' id='collapsed-menu-toggle'>
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
 		</div>
-	</div>
-	
-	<div class="container header">
-			<div class="row vcenter">
-				<div class="col-lg-12">
-					<div class="intro-text">
-						<div class="name">Aman Dureja</div>
-						<div class="description">Student | Developer | Dreamer</div>
+
+		<div class='navbar-collapsed' id='collapsed-navbar'>
+			<a id='collapsed-about' href='#about'><h4>About</h4></a>
+			<a id='collapsed-quals' href='#quals'><h4>Qualifications</h4></a>
+			<a id='collapsed-experience' href='#experience'><h4>Experience</h4></a>
+			<a id='collapsed-portfolio' href='#portfolio'><h4>Portfolio</h4></a>
+			<a id='collapsed-contact' href='#contact'><h4>Contact</h4></a>
+			<a id='collapsed-resume' href='#'><h4>Resume</h4></a>
+		</div>
+
+		<!-- First thing shown -->
+		<div class='intro'>
+			<h1 class='myHeader'>Aman Dureja</h1>
+			<h3 class='mySubHeader'>student &middot developer &middot dreamer</h3>
+			<div class='social-icons'>
+				<a href='mailto:dureja.aman.97@gmail.com' target='_blank'>
+					<i class="fa fa-envelope-square" aria-hidden="true"></i>
+				</a>
+				<a href='http://linkedin.com/in/amandureja' target='_blank'>
+					<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+				</a>
+				<a href='http://github.com/aman-dureja' target='_blank'>
+					<i class="fa fa-github-square" aria-hidden="true"></i>
+				</a>
+			</div>
+			<i class="fa fa-arrow-circle-down scrollArrow" aria-hidden="true"></i>
+			<img src='resources/background.jpg'/>
+		</div>
+
+		<a class='anchor' id='about'></a>
+
+		<!-- About me -->
+		<div class='section about-me'>
+			<h1 class='title'>About Me</h1>
+				<div class='about-info-container'>
+					<div class='pic-of-me'>
+						<p class='picture-container'>
+							<img class='my-pic' src='resources/me.jpg'/>
+						</p>
 					</div>
+					<div class='about-me-info'>
+						<p>I am a Software Engineering student at the University of Waterloo, currently in my 2A academic term.<br><br>
+						I love developing thoughtfully designed software systems that work together to serve a greater purpose. My expertise lie in object oriented programming and full stack web development.<br><br>
+						When I'm not programming, I love playing the guitar, listening to music, working out, and enjoying delicious meals with friends and family!<br><br>
+						I am currently looking for a four month internship/co-op opportunity beginning January 2017. Feel free to <a href='#contact' target='_blank'>contact me</a> and we'll get in touch!</p>
+					</div>
+				</div>
+		</div>
+
+		<hr width='80%'>
+
+		<a class='anchor' id='quals'></a>
+
+		<!-- Qualifications -->
+		<div class='section qualifications'>
+			<h1 class='title'>Qualifications</h1>
+			<div class='quals'>
+				<table>
+					<tr class='qual-row'>
+						<th>Languages</th>
+						<td>C/C++, Java, Javascript, Python, HTML5/CSS3</td>
+					</tr>
+					<tr class='qual-row'>
+						<th>Technologies</th>
+						<td>React.js, Node.js, Express.js, Flask, Git</td>
+					</tr>
+					<tr class='qual-row'>
+						<th>Other</th>
+						<td>Object Oriented Design, Model View Controller (MVC) Architecture, Software Testing, Software Development Lifecycle (familiarity with paradigms like Agile and Waterfall)</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<hr width='80%'>
+
+		<a class='anchor' id='experience'></a>
+
+		<!-- Work experience -->
+		<div class='section work-experience'>
+			<h1 class='title'>Experience</h1>
+			<div class='work'>
+				<div class='work-info'>
+					<div class='general-work-layout'>
+						<div class='work-titles'>
+							<div>
+								<img src='resources/mappedin.png'/>
+							</div>
+							<div class='work-headings'>
+								<h3 class='position'>Software Developer In Test</h3>
+								<h4 class='location'>Mappedin - Kitchener, Ontario, Canada</h4>
+							</div>
+						</div>
+						<div class='work-timeline'>
+							<h4>May 2016 - September 2016</h4>
+						</div>
+					</div>
+					<ul class='explain'>
+						<li>Automated over 150 manual regression and integration test cases using the Sahi Pro testrunner with Javascript</li>
+						<li>Designed and wrote thorough unit tests using the Mocha testrunner with Sinon.js</li>
+						<li>Maintained the Continuous Integration system and pioneered the addition of automated integration tests, including design and deployment of a new testing server</li>
+						<li>Designed and developed a Chrome extension to streamline submitting detailed bug reports with automatically retrieved stacktraces to the organization's Github repository</li>
+						<li>Found and fixed front end bugs and implemented new features using React.js</li>
+						<li>Found and fixed server side bugs using Node.js and Express.js</li>
+						<li>Performed key regression tests and filed detailed bug reports during every release cycle</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 
-	<div class="aboutme container-fluid">
-	<div class="container">
-		
-		<span class="anchor" id="about"></span>
-		<h1 style="text-align: center; padding-top:15px;">About Me</h1>
-	
-			<div class="description-of-me" style="padding-bottom: 15px">
-				<p>I am a first year Software Engineering student at the University of Waterloo in Ontario, Canada. I am currently in my 1B academic term, and looking for twelve to sixteen week co-op opportunities beginning in May 2016. Feel free to <a href="#contact" style="color:white"><u>contact me</u></a>!</p>
-				<p>My expertise lie in Object Oriented Programming with Java, and I am also proficient with C, Python, HTML5/CSS3, and Git. In addition, I have a working knowledge of C++, Javascript, and the Flask framework for Python.</p>
-				<p>When I'm not programming, I love to play guitar (have been playing for nine years now), listen to music, work out, and enjoy delicious meals with friends and family!</p>
+		<hr width='80%'>
+
+		<a class='anchor' id='portfolio'></a>
+
+		<!-- Portfolio -->
+		<div class='section portfolio'>
+			<h1 class='title'>Portfolio</h1>
+			<h3>Explore my projects!</h3>
+			<p class='section-subheading'> Click the images or titles to see the source code on Github.</p>
+			<div class='projects-display'>
+				<div class='project'>
+					<a href='http://github.com/aman-dureja/node-login'><img src='resources/node-login.jpg' target='_blank'></a>
+					<a href='http://github.com/aman-dureja/node-login' target='_blank'><h2>Node Login</h2></a>
+					<p>A signup page and login system using <b>Node.js</b> with <b>Express.js</b>. User information is stored in a <b>MongoDB</b> server which is acccessed via the <b>Mongoose</b> Javascript interface.</p>
+				</div>
+				<div class='project'>
+					<a href='https://github.com/aman-dureja/hotline-bling-game' target='_blank'><img src='resources/hotline-bling.jpg'></a>
+					<a href='https://github.com/aman-dureja/hotline-bling-game' target='_blank'><h2>"Hotline Bling" Sidescroller Game</h2></a>
+					<p>A side-scrolling game parody of Drake's "Hotline Bling". Developed as a multithreaded <b>Java applet</b>.</p>
+				</div>
+				<div class='project'>
+					<a href='https://github.com/Aar0nC/GooseRun' target='_blank'><img src='resources/gooserun.jpg'></a>
+					<a href='https://github.com/Aar0nC/GooseRun' target='_blank'><h2>"GooseRun" Game</h2></a>
+					<p>An infinite sidescroller where you play as a goose and must avoid running into obstacles. Developed on the <b>Texas Instruments Launchpad</b> and <b>Orbit Boosterpack</b> using <b>C</b> with the <b>Energia IDE</b>.</p>
+				</div>
+				<div class='project'>
+					<a href='https://github.com/pxlcoder/c60app' target='_blank'><img src='resources/c60.jpg'/></a>
+					<a href='https://github.com/pxlcoder/c60app' target='_blank'><h2>C60</h2></a>
+					<p>A smart, connected contacts manager application for the <b>Pebble</b> smartwatch. Created at <b>Hack the North 2015</b>.</p>
+				</div>
+				<div class='project'>
+					<a href='https://github.com/aman-dureja/other-projects' target='_blank'><img src='resources/misc-utils.jpg'/></a>
+					<a href='https://github.com/aman-dureja/other-projects' target='_blank'><h2>Miscallaneous Utilities</h2></a>
+					<p>A variety of command line utilies built in <b>Python</b>: an application to send and receive SMS messages over the internet, and a program for University of Waterloo students to determine what courses require an inputted course as a prerequisite.</p>
+				</div>
 			</div>
-	</div>
-	</div>
+		</div>
 
-	<HR width="80%">
+		<hr width='80%'>
 
-	<div class="myportfolio container-fluid">
-		<div class="container">
-		<span class="anchor" id="portfolio"></span>
-		<h1 style="text-align: center;">Portfolio</h1>
-		<h4 style="text-align: center">Projects that represent me.</h4>
-		<h4 style="text-align: center; padding-bottom: 5px">Click on the image or title to go to the project's Github page.</h4>
+		<a class='anchor' id='contact'></a>
 
-		<div class="projects"> 
-		<div class="row">
-			<div class="col-sm-2"></div>
-			<div class="col-sm-4">
-				<a href="http://bit.ly/amansidescroller" target="_blank"><img class="img-responsive project-image" src="https://pbs.twimg.com/media/CK9WQjpWcAAnFEh.png:large" /></a>
-				<a href="http://bit.ly/amansidescroller" target="_blank" style="color:white"><h3><u>"Hotline Bling" Game</u></h3></a>
-				<p>A side-scrolling game parody of Drake's "Hotline Bling". Developed as a multithreaded Java applet.</p>
+		<!-- Contact -->
+		<div class='section contact'>
+			<h1 class='title'>Contact Me</h1>
+			<p class='section-subheading'>Let's get in touch.</p>
+			<div class='contact-forms'>
+				<a href='mailto:dureja.aman.97@gmail.com' target='_blank'><i class='fa fa-envelope' aria-hidden='true'></i></a>
+				<p>aman@amandureja.com</p>
+				<a href='http://linkedin.com/in/amandureja' target='_blank'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<p>Let's connect</p>
+				<a href='http://github.com/aman-dureja' target='_blank'><i class="fa fa-github" aria-hidden="true"></i></a>
+				<p>Check out my Github</p>
 			</div>
-			
-			<div class="col-sm-4">
-				<a href="http://bit.ly/gooserun" target="_blank"><img class="img-responsive project-image" src="gooserun.png" /></a>
-				<a href="http://bit.ly/gooserun" target="_blank" style="color:white"><h3><u>"GooseRun" Game</u></h3></a>
-				<p>An infinite sidescroller where you play as a goose and have to avoid hitting obstacles. Developed on the Texas Instruments Launchpad and Orbit Boosterpack, using C.</p>
-			</div>
-			<div class="col-sm-2"></div>
-			<br>
 		</div>
 
-		<div class="row", style="padding-top: 10px">
-			<div class="col-sm-2"></div>
-			<div class="col-sm-4">
-				<a href="http://bit.ly/C60HTN" target="_blank"><img class="img-responsive project-image" src="c60real.jpg"/></a>
-				<a href="http://bit.ly/C60HTN" target="_blank" style="color: white; font-weight: strong"><h3><u>C60</u></h3></a>
-				<p>A smart, connected contacts application for the Pebble smartwatch</p>
-			</div>
-			<div class="col-sm-4" style="padding-bottom: 15px">
-				<a href="http://bit.ly/amanprojects" target="_blank"><img class="img-responsive project-image" src="http://icons.iconarchive.com/icons/apathae/wren/512/Utilities-icon.png"  target="_blank"/></a>
-				<a href="http://bit.ly/amanprojects" target="_blank"><h3 style="color: white; font-weight: strong"><u>Miscellaneous Utilities</u></h3></a>
-				<p>Small command line utilities built in Python. An application that allows for sending and receiving SMS messages over the internet. A program for University of Waterloo students to determine what courses require an inputted course as a prerequisite.</p>
-			</div>
-			<div class="col-sm-2"></div>
-		</div>
-		</div>
-		</div>
-	</div>
 
-	<HR width="80%">
+		<script src='index.js'></script>
 
-	<span class="anchor" id="contact"></span>
-	<div class="container-fluid contact" style="text-align: center;">
-		<div class="container">
-		<h1 style="text-align: center">Contact</h1>
-		<h4 style="text-align: center; padding-bottom: 10px">Let's get in touch.</h4>
-		<div class="contact">
-		<a href="mailto:aman@amandureja.com"><i class="icon-envelope" style="font-size: 40px; color: white"></i></a>
-		<p style="padding-bottom: 20px">Send me an email</p>
-		<a href="http://linkedin.com/in/amandureja" target="_blank"><i class="icon-linkedin" style="font-size: 40px; color: white"></i></a>
-		<p style="padding-bottom: 20px">Let's connect</p>
-		<a href="http://github.com/aman-dureja" target="_blank"><i class="icon-github" style="font-size: 40px; color: white"></i></a>
-		<p style="padding-bottom:60px">Star my Github</p>
-		</div>
-		</div>
-	</div>
 
-	<HR width="80%">
+	</body>
 
-	<div id="footer" class="footer" style="text-align: center;">
-		<h5>Copyright Aman Dureja 2016</h5>
-	</div>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	
-</body>
 
 </html>
