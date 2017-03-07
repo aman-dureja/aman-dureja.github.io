@@ -165,9 +165,11 @@ h1 {
       display: none; }
     .mobile-navbar .links .nav-link {
       padding: 15px;
-      border: 1px solid white;
+      border-bottom: 1px solid white;
       width: 100vw;
       text-align: center; }
+      .mobile-navbar .links .nav-link:first-child {
+        border-top: 1px solid white; }
       .mobile-navbar .links .nav-link:last-child {
         border-bottom: none; }
 
