@@ -456,11 +456,6 @@ h1 {
     padding: 20px; }
     .contact-method-link .contact-method i {
       font-size: 40px; }
-    @media (min-width: 0px) and (max-width: 375px) {
-    .contact-method-link .contact-method {
-      padding: 10px; }
-    .contact-method-link .contact-method i {
-      font-size: 30px; } }
     .contact-method-link .contact-method .text {
       margin-left: 25px; }
 
